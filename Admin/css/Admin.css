@@ -1,0 +1,211 @@
+.main_containet {
+    text-align: center;
+}
+
+.inform1 {
+    width: 300px;
+    height: 25px;
+}
+
+.inform2 {
+    width: 300px;
+    height: 40px;
+}
+
+.inform3 {
+    width: 300px;
+    height: 30px;
+}
+
+.main_containet {
+    background: #234a57;
+}
+
+label {
+    text-align: left;
+    display: block;
+    width: 200px;
+    padding-bottom: 5px;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(9, 10, 10);
+}
+
+.t-aline {
+    text-align: center;
+}
+
+.bimage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/comp1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.head2 {
+    text-align: center;
+    color: #fff;
+}
+
+.logo img {
+    padding-top: 10px;
+    float: left;
+    width: 220px;
+    height: 100px;
+}
+
+.head21 {
+    color: #fff;
+}
+
+
+/* Form */
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.container label b {
+    text-align: left;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #004044;
+    opacity: 0.8;
+    color: #fff;
+}
+
+
+/* Center the image and position the close button */
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.container {
+    padding: 8px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+/* The Modal (background) */
+
+body {
+    background-color: rgba(155, 136, 240, 0.4);
+}
+
+.modal {
+    position: relative;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    width: 100%;
+    /* Full width */
+    height: 50%;
+    /*of the Full height */
+    padding-top: 0;
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 65%;
+    /* Could be more or less, depending on screen size */
+    border-radius: 15px;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* Add Zoom Animation */
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
+
+
+/* TABLE STYLE SECTION*/
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+th {
+    background-color: rgb(153, 148, 148);
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.icon-col {
+    color: red;
+    font-size: 20px;
+}
+
+@media (max-width: 858px) {
+    .modal-content {
+        width: 100%;
+    }
+}

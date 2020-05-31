@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturer Site</title>
+
+
+    <!-- Load an icon library -->
+    <script src="https://kit.fontawesome.com/1065cceb90.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../css/lecturer.css">
+    <link rel="stylesheet" href="../fonts/../font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header-Section">
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <div class="logo">
+                <img src="../images/SQSLogo.png" alt="">
+            </div>
+            <ul>
+                <li><a class="active" href="../../Lecturer_Home.html">Home</a></li>
+                <li><a class="active" href="../Pages/About.html">About</a></li>
+                <li><a class="active" href="../Pages/Contact.html">Contact</a></li>
+                <li><a class="active" href="../Pages/QuizSystem.html">Quiz System</a></li>
+                <li><a class="active" href="#">Log-Out</a></li>
+
+            </ul>
+
+
+        </header><br><br><br><br><br><br>
+
+        <div class="con-wrapper">
+
+        <nav class="side-nav">
+                <h3>Lecturer Dashboard</h3>
+                <ul>
+                    <li>
+                        <a href="../Class/ManageClass.html">
+                            <span><i class="fa fa-users"></i></span>
+                            <span>Manage Class</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Exam/ManageExams.html">
+                            <span><i class="fa fa-book"></i></span>
+                            <span>Manage Exam</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Questions/ManageQuestions.html">
+                            <span><i class="fa fa-question-circle"></i></span>
+                            <span>Manage Questions</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Student/ManageStudent.html">
+                            <span><i class="fa fa-user"></i></span>
+                            <span>Manage Students</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Results/ExamResults.html">
+                            <span><i class="fa fa-user"></i></span>
+                            <span>Exam Results</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Profile/ManageProfile.html">
+
+                            <span><i class="fa fa-fw fa-wrench"></i></span>
+                            <span>Edit Profile</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <section class="Main">
+
+                <div class="main-nav">
+                    <ul>
+
+                        <li><a href="AddClass.html" class="button">Add Class</a></li>
+                        <li><a href="ViewClass.html" class="button">View Class</a></li>
+                    </ul>
+                </div><br><br><br><br>
+
+                <h2 class="t-aline">List Of Class Created</h2>
+                <hr><br>
+
+                <table>
+                    <tr>
+                        <th>#</th>
+                        <th>Lecturer's Name</th>
+                        <th>Course Name</th>
+                        <th>Course Code</th>
+                        <th>Semester</th>
+                        <th>Academic Year</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Mr Janneh</td>
+                        <td>Intro TO CS</td>
+                        <td>CPS122</td>
+                        <td>First</td>
+                        <td>2020/2021</td>
+                        <td>
+                            <div class="icon-col">
+                            <a href="Edit_Class.html"> <span><i class="fa fa-users"></i></span></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="icon-col">
+                                <i class="fas fa-trash-alt"></i>
+                            </div>
+                        </td>
+                    </tr>
+
+                </table><br><br><br><br>
+
+            </section>
+        </div>
+
+        </div>
+
+</div>
+<footer>
+    <div>
+        <p>Copyright &copy; 2020 Junior Project. All Rights Reserved. Designed by <a href="#">SALIEU JAHATEH</a>. | <a href="#">Terms of Use</a></p>
+    </div>
+    <!-- end div#footer -->
+</footer>
+
+
+
+</body>
+
+</html>

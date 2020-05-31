@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturer Site</title>
+
+
+    <!-- Load an icon library -->
+    <script src="https://kit.fontawesome.com/1065cceb90.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../css/Admin.css">
+    <link rel="stylesheet" href="../fonts/font-awesome.min.css">
+
+</head>
+
+<body class="bimage">
+
+    <div class="wrapper">
+
+        <header class="header-Section">
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <div class="logo">
+                <img src="../images/SQSLogo.png" alt="">
+            </div>
+            <ul>
+                <li><a class="active" href="../../Admin_Homel">Home</a></li>
+                <li><a class="active" href="#">Log-Out</a></li>
+            </ul>
+
+
+        </header><br><br><br><br><br><br>
+
+        <div class="con-wrapper">
+            <nav class="side-nav">
+
+                <h3>Admin Dashboard</h3>
+
+                <ul>
+
+                    <li>
+                        <a href="../Lecturer/ManageLecturer.html">
+                            <span><i class="fa fa-users"></i></span>
+                            <span>Manage Lecturers</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Student/ManageStudent.html">
+                            <span><i class="fa fa-users"></i></span>
+                            <span>Manage Students</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Exams/ManageExams.html">
+                            <span><i class="fa fa-users"></i></span>
+                            <span>Manage Classes</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Admin/ManageAdmin.html">
+                            <span><i class="fa fa-users"></i></span>
+                            <span>Manage Admins</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../Profile/ManageProfile.html">
+
+                            <span><i class="fa fa-fw fa-wrench"></i></span>
+                            <span>Edit Profile</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <section class="Main">
+
+                <div class="main-nav">
+                    <ul>
+
+                        <li><a href="AddAdmin.html" class="button">Add Admin</a></li>
+                        <li><a href="ViewAdmin.html" class="button">View Admin</a></li>
+                    </ul>
+                </div><br><br><br><br>
+
+                <h2 class="head2">View Admin </h2>
+                <hr><br>
+
+                <table>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                        <th>Conform password</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Fatou</td>
+                        <td>Drammeh</td>
+                        <td>f@gmail.com</td>
+                        <td>Fatou200</td>
+                        <td>2214jhvjh</td>
+                        <td>2214jhvjh</td>
+                        <td>
+                            <div class="icon-col">
+                                <a href="Edit_Admin.html"> <span><i class="fa fa-user"></i></span></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="icon-col">
+                                <i class="fas fa-trash-alt"></i>
+                            </div>
+                        </td>
+                    </tr>
+
+                </table><br><br><br><br>
+
+
+
+
+            </section>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

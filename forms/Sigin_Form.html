@@ -1,0 +1,66 @@
+<?html
+
+    require('../html_logic/connector.html');
+
+?>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Login Form</title>
+
+
+        <!-- Load an icon library -->
+        <script src="https://kit.fontawesome.com/1065cceb90.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/index.css">
+
+    </head>
+
+    <body>
+
+        <div>
+            <header class="header-Section">
+
+                <div class="main">
+                    <div class="logo">
+                        <a href="../index.html"><img src="../logo/SQSLogo.png" alt="SQS"></a>
+                    </div>
+                </div>
+                <div class="sign-up-tab">
+
+                    <a href="Sigin_Form.html" class="btn" style="width:auto;">Sign-In</a>
+                    <a href="Student_Form.html" class="btn" style="width:auto;">Sign-Up As tudent</a>
+                    <a href="Lecturer_Form.html" class="btn" style="width:auto;">Sign-Up As Lecturer</a>
+
+                </div>
+
+
+            </header><br><br><br><br><br><br>
+
+
+            <section class="Main">
+
+                <form class="modal-content" enctype="multitype/form-data" method="POST">
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input id="username" type="text" placeholder="Enter Username" name="username" required class="plase-holder">
+
+                        <label for="psw"><b>Password</b></label>
+                        <input id="password" type="password" placeholder="Enter Password" name="password" required class="plase-holder">
+
+                        <button id="submit" type="submit" name="submit">Login</button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                    </div>
+
+                </form>
+
+            </section>
+        </div>
+    </body>
+
+    </html>

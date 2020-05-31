@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturer Site</title>
+
+
+    <!-- Load an icon library -->
+    <script src="https://kit.fontawesome.com/1065cceb90.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../css/Admin.css">
+    <link rel="stylesheet" href="../fonts/font-awesome.min.css">
+
+</head>
+
+<body class="bimage">
+
+    <div class="wrapper">
+
+        <header class="header-Section">
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <div class="logo">
+                <img src="../images/SQSLogo.png" alt="">
+            </div>
+            <ul>
+                <li><a class="active" href="../../Admin_Home">Home</a></li>
+                <li><a class="active" href="#">Log-Out</a></li>
+            </ul>
+
+
+        </header><br><br><br><br><br><br>
+
+        <div class="con-wrapper">
+
+        <nav class="side-nav">
+
+<h3>Admin Dashboard</h3>
+
+<ul>
+
+    <li>
+        <a href="../Lecturer/ManageLecturer.html">
+            <span><i class="fa fa-users"></i></span>
+            <span>Manage Lecturers</span>
+        </a>
+    </li>
+    <li>
+        <a href="../Student/ManageStudent.html">
+            <span><i class="fa fa-users"></i></span>
+            <span>Manage Students</span>
+        </a>
+    </li>
+    <li>
+        <a href="../Exams/ManageExams.html">
+            <span><i class="fa fa-users"></i></span>
+            <span>Manage Classes</span>
+        </a>
+    </li>
+    <li>
+        <a href="../Admin/ManageAdmin.html">
+            <span><i class="fa fa-users"></i></span>
+            <span>Manage Admins</span>
+        </a>
+    </li>
+
+    <li>
+        <a href="../Profile/ManageProfile.html">
+
+            <span><i class="fa fa-fw fa-wrench"></i></span>
+            <span>Edit Profile</span>
+        </a>
+    </li>
+
+</ul>
+</nav>
+
+            <section class="Main">
+
+                <div class="main-nav">
+                    <ul>
+
+                        <li><a href="AddLecturer.html" class="button">Add Lecturer</a></li>
+                        <li><a href="ViewLecturer.html" class="button">View Lecturer</a></li>
+                    </ul>
+                </div><br><br><br><br>
+                <h2 class="t-aline">Add Lecturer </h2>
+                <hr>
+
+
+                <!--Add Lecturer Form start-->
+
+                <div class="modal">
+
+                    <form class="modal-content animate" action="/action_page.html" method="post"><br>
+
+                        <h2 class="t-aline">ENTER LECTURER'S DETAILS</h2>
+
+                        <div class="container">
+                            <label for="uname"><b>First Name</b></label>
+                            <input id="fn" type="text" placeholder="Enter Full Name" name="fn" required class="plase-holder">
+
+                            <label for="uname"><b>Last Name</b></label>
+                            <input id="ln" type="text" placeholder="Enter Full Name" name="ln" required class="plase-holder">
+
+                            <label for="uname"><b>Department</b></label>
+                            <input id="dp" type="text" placeholder="Enter Department" name="dp" required class="plase-holder">
+
+                            <label for="uname"><b>Area of Specialization</b></label>
+                            <input id="as" type="text" placeholder="Enter Area of Specialization" name="as" required class="plase-holder">
+
+                            <label for="uname"><b>Educational Level</b></label>
+                            <input id="el" type="text" placeholder="Enter Level of Education" name="el" required class="plase-holder">
+
+                            <label for="uname"><b>Email</b></label>
+                            <input id="e" type="email" placeholder="Enter Email" name="e" required class="plase-holder">
+
+                            <label for="uname"><b>Username</b></label>
+                            <input id="u" type="text" placeholder="Enter Username" name="u" required class="plase-holder">
+
+                            <label for="psw"><b>Password</b></label>
+                            <input id="p" type="password" placeholder="Enter Password" name="p" required class="plase-holder">
+
+                        
+                            <button id="submit" type="submit">SAVE</button>
+
+                        </div>
+
+
+                    </form>
+                </div>
+                <!--Add Lecturer Form end-->
+
+            </section>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

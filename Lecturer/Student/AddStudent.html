@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturer Site</title>
+
+
+    <!-- Load an icon library -->
+    <script src="https://kit.fontawesome.com/1065cceb90.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../css/lecturer.css">
+    <link rel="stylesheet" href="../fonts/../font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header-Section">
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <div class="logo">
+                <img src="../images/SQSLogo.png" alt="">
+            </div>
+            <ul>
+                <li><a class="active" href="../../Lecturer_Home.html">Home</a></li>
+                <li><a class="active" href="../Pages/About.html">About</a></li>
+                <li><a class="active" href="../Pages/Contact.html">Contact</a></li>
+                <li><a class="active" href="../Pages/QuizSystem.html">Quiz System</a></li>
+                <li><a class="active" href="#">Log-Out</a></li>
+
+            </ul>
+
+
+        </header><br><br><br><br><br><br>
+
+        <div class="con-wrapper">
+
+        <nav class="side-nav">
+                <h3>Lecturer Dashboard</h3>
+                <ul>
+                    <li>
+                        <a href="../Class/ManageClass.html">
+                            <span><i class="fa fa-users"></i></span>
+                            <span>Manage Class</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Exam/ManageExams.html">
+                            <span><i class="fa fa-book"></i></span>
+                            <span>Manage Exam</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Questions/ManageQuestions.html">
+                            <span><i class="fa fa-question-circle"></i></span>
+                            <span>Manage Questions</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Student/ManageStudent.html">
+                            <span><i class="fa fa-user"></i></span>
+                            <span>Manage Students</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Results/ExamResults.html">
+                            <span><i class="fa fa-user"></i></span>
+                            <span>Exam Results</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Profile/ManageProfile.html">
+
+                            <span><i class="fa fa-fw fa-wrench"></i></span>
+                            <span>Edit Profile</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+
+            <section class="Main">
+
+                <div class="main-nav">
+                    <ul>
+
+                        <li><a href="AddStudent.html" class="button">Add Students</a></li>
+                        <li><a href="View_Classes.html" class="button">View Classes</a></li>
+                    </ul>
+                </div><br><br><br><br>
+                <h2 class="t-aline">Add Student </h2>
+                <!--Add Student form start-->
+
+                <div class="modal">
+
+                    <form class="modal-content animate" enctype="multitype/form-data" method="post"><br>
+
+                        <h2 class="t-aline">Enter Details</h2>
+
+
+                        <div class="container">
+
+                            <label for="uname"><b>Academic Year</b></label>
+                            <input id="academic_year" type="text" placeholder="Enter Academic Year" name="academic_year" value="<?html echo $academicY ?>"  required class="plase-holder">
+                           
+                            <label for="uname"><b>Semester</b></label>
+                            <input id="semester" type="text" placeholder="Enter Semester" name="semester" value="<?html echo $semester ?>" required class="plase-holder">
+
+
+                            <label for="uname"><b>Mat Number</b></label>
+                            <input id="mat_number" type="text" placeholder="Enter Mat number" name="mat_number" value="<?html echo $matN ?>" required class="plase-holder">
+
+                            <label for="uname"><b>Class Code</b></label>
+                            <input id="class_code" type="text" placeholder="Enter Code" name="class_code" value="<?html echo $classC ?>" required class="plase-holder">
+
+                            <button id="submit" type="submit" class="t-aline" name="submit">Save</button>
+
+                        </div>
+
+                    </form>
+                </div>
+                <!--Add Student form  end-->
+
+            </section>
+        </div>
+
+        </div>
+
+</div>
+<footer>
+    <div>
+        <p>Copyright &copy; 2020 Junior Project. All Rights Reserved. Designed by <a href="#">SALIEU JAHATEH</a>. | <a href="#">Terms of Use</a></p>
+    </div>
+    <!-- end div#footer -->
+</footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,242 @@
+.head2 {
+    color: #fff;
+}
+
+.t-aline {
+    text-align: center;
+}
+
+#main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Online-exam.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo img {
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+label {
+    text-align: left;
+    display: block;
+    width: 200px;
+    padding-bottom: 5px;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(9, 10, 10);
+}
+
+.inform3 {
+    width: 300px;
+    height: 30px;
+}
+
+#paddL {
+    font-size: 20px;
+    padding: 0;
+    font-style: italic;
+    width: 150px;
+    color: rgb(9, 1, 29);
+}
+
+#paddL:hover {
+    background: #0ab1bd;
+    color: rgb(9, 1, 29);
+}
+
+.paddL1 {
+    padding-left: 70px;
+}
+
+.enrolbut {
+    background: #079c4a;
+}
+
+.viewLink a {
+    font-size: large;
+    font-weight: bold;
+    color: #000;
+    float: left;
+    border-radius: 3px;
+    background: #0ab1bd;
+}
+
+.viewLink a:hover {
+    background: #079c4a;
+    color: rgb(9, 1, 29);
+}
+
+.mainlis li {
+    float: left;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #4CAF50;
+    margin-left: 10px;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+/* TABLE STYLE SECTION*/
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+th {
+    background-color: rgb(153, 148, 148);
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.icon-col {
+    color: red;
+    font-size: 30px;
+}
+
+@media (max-width: 952px) {
+    table {
+        width: 30%;
+        font-size: small;
+    }
+    .icon-col {
+        font-size: 15px;
+    }
+    .Main h2 {
+        text-align: left;
+    }
+}
+
+
+/* Form */
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.container label b {
+    text-align: left;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #004044;
+    opacity: 0.8;
+    color: #fff;
+}
+
+
+/* Center the image and position the close button */
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.container {
+    padding: 8px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+/* The Modal (background) */
+
+body {
+    background-color: rgba(155, 136, 240, 0.4);
+}
+
+.modal {
+    position: relative;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    width: 100%;
+    /* Full width */
+    height: 50%;
+    /*of the Full height */
+    padding-top: 0;
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 65%;
+    /* Could be more or less, depending on screen size */
+    border-radius: 15px;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* Add Zoom Animation */
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
